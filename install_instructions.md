@@ -1,6 +1,6 @@
 # WaterTAP Academy Installation Guide
 
-This guide will step through the processes to get started with the WaterTAP Academy. Accessing the content for the WaterTAP Academy will require that you have (1) an Integrated Development Environment (IDE) to write and run Python code - we will be using Microsoft's [VSCode](https://code.visualstudio.com/) but other IDEs are available, (2) a GitHub account, and (3) Python and WaterTAP installed on your local machine. Likewise, this installation guide will be broken down into the following parts:
+This guide will step through the processes to get started with the WaterTAP Academy. Accessing the content for the WaterTAP Academy will require that you have (1) an Integrated Development Environment (IDE) to write and run Python code - we will be using Microsoft's [VSCode](https://code.visualstudio.com/) but other IDEs are available, (2) Python and WaterTAP installed on your local machine, and (3) the graphical user interface (GUI) to run and visualize flowsheets outside of Python. Likewise, this installation guide will be broken down into the following parts:
 
 - **Part 1: Installing VSCode**
     - Installing VSCode
@@ -8,19 +8,17 @@ This guide will step through the processes to get started with the WaterTAP Acad
 
 - **Part 2: Installing Miniforge, Python, and WaterTAP**
     - Installing Miniforge
-    - Creating a personal copy (fork) of the WaterTAP Academy repo
     - Creating the conda environment
     - Cloning the WaterTAP Academy repo
-    - Cloning the WaterTAP repo
-    - Installing WaterTAP dependencies
+    - Installing WaterTAP
     - Setting up Jupyter Lab
+    - Installing Reaktoro
 
 - **Part 3: Installing the IDAES Flowsheet Processor (Graphical User Interface)**
 
 - **Part 4: Optional Steps**
   - Creating a GitHub account
-  - Running Binder
-  - Installing Reaktoro
+  - Utilizing Binder
 
 ## Part 1: Installing VSCode
 
@@ -129,10 +127,10 @@ git clone https://github.com/watertap-org/watertap_academy_2026
 
 ![Git Clone](https://github.com/user-attachments/assets/324ff418-3443-418c-9a78-d2d4a3995343)
 
-At this point, you have access to all the WaterTAP Academy course material locally. At the beginning of the course, most of these directories will be empty, but you'll be able to update these local directories by downloading the weekly materials directly from GitHub and/or referring to your email inbox where we'll send out weekly content. We will now repeat these steps to set up the WaterTAP repository locally, which will house the core codebase.
+At this point, you have access to all the WaterTAP Academy course material locally. At the beginning of the course, most of these directories will be empty, but you'll be able to update these local directories by downloading the weekly materials directly from GitHub and/or referring to your email inbox where we'll send out weekly content.
 
-### 6. Installing the WaterTAP repository 
-Now we'll install the WaterTAP repository. 
+### 6. Installing WaterTAP 
+Now we'll install the WaterTAP codebase. 
 
 In the terminal, run the following cell to install WaterTAP inside your "wta2026" environment:
 
