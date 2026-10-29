@@ -20,6 +20,8 @@ This guide will step through the processes to get started with the WaterTAP Acad
   - Creating a GitHub account
   - Utilizing Binder
 
+Alternatively, [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/watertap-org/watertap_academy_2026/main) can be used to access WaterTAP Academy materials through a web browser without having to install anything. Binder is an online service providing a short-lived temporary sandbox environment on public cloud resources where Jupyter notebooks can be run, free of charge, without having to install any software locally.
+
 ## Part 1: Installing VSCode
 
 VSCode is the free Microsoft integrated development environment (IDE) we will be using for the WaterTAP Academy. In addition to installing the VSCode application, we need to install the Python and GitHub extensions. For an introductory tutorial on VSCode, visit their official [Getting Started](https://code.visualstudio.com/docs/getstarted/getting-started) page.
@@ -228,6 +230,3 @@ To access the IDAES Flowsheet Processor, visit the [documentation page](https://
 
 You can create a GitHub account if you want to interact with issues, pull requests, and discussion boards. Visit the [GitHub Getting Started](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github#signing-up-for-a-new-personal-account) page for instructions on how to create an account.
 
-### 2. Utilizing Binder
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/watertap-org/watertap_academy_fall_2025/main) is an online service providing a short-lived temporary sandbox environment on public cloud resources where Jupyter notebooks can be run, free of charge, without having to install any software locally.

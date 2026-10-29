@@ -9,7 +9,7 @@ for participants with a range of coding and modeling experience, those with some
 experience in process modeling, simulation, or Python programming will be best positioned
 to get the most out of the course.
 
-This repository contains the course materials from the **Fall 2025 WaterTAP Academy**,
+This repository contains the course materials for the **Fall 2026 WaterTAP Academy**,
 including lecture materials, coding tutorials, and other
 resources used throughout the course.
 
@@ -35,7 +35,7 @@ This repository has the following directories:
 * **`data/`:** The data directory can be used to store any data you may have.
 
 To run the WaterTAP models and notebooks, consider the following options:
-* **Quick Start:** Run them through Binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/watertap-org/watertap_academy_fall_2025/main), an online service providing a short-lived temporary sandbox environment on public cloud resources where Jupyter notebooks can be run, free of charge, without having to install any software locally.
+* **Quick Start:** Run them through Binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/watertap-org/watertap_academy_2026/main), an online service providing a short-lived temporary sandbox environment on public cloud resources where Jupyter notebooks can be run, free of charge, without having to install any software locally.
 * **Installation** Install only the necessary packages and dependencies. See the installation instructions [here](SIMPLEINSTALLATIONINSTRUCTIONS)
 
 
