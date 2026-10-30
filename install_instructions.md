@@ -2,12 +2,12 @@
 
 This guide will step through the processes to get started with the WaterTAP Academy. Accessing the content for the WaterTAP Academy will require that you have (1) an Integrated Development Environment (IDE) to write and run Python code - we will be using Microsoft's [VSCode](https://code.visualstudio.com/) but other IDEs are available, (2) Python and WaterTAP installed on your local machine, and (3) the graphical user interface (GUI) to run and visualize flowsheets outside of Python. Likewise, this installation guide will be broken down into the following parts:
 
-- **Part 1: Installing VSCode**
-    - Installing VSCode
-    - Installing VSCode extensions
+- **Part 1: Installing Miniforge**
+  - Installing Miniforge
 
 - **Part 2: Installing Miniforge, Python, and WaterTAP**
-    - Installing Miniforge
+    - Installing VSCode
+    - Installing VSCode extensions
     - Creating the conda environment
     - Cloning the WaterTAP Academy repo
     - Installing WaterTAP
@@ -22,35 +22,9 @@ This guide will step through the processes to get started with the WaterTAP Acad
 
 Alternatively, [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/watertap-org/watertap_academy_2026/main) can be used to access WaterTAP Academy materials through a web browser without having to install anything. Binder is an online service providing a short-lived temporary sandbox environment on public cloud resources where Jupyter notebooks can be run, free of charge, without having to install any software locally.
 
-## Part 1: Installing VSCode
+## Part 1: Installing Miniforge
 
-VSCode is the free Microsoft integrated development environment (IDE) we will be using for the WaterTAP Academy. In addition to installing the VSCode application, we need to install the Python and GitHub extensions. For an introductory tutorial on VSCode, visit their official [Getting Started](https://code.visualstudio.com/docs/getstarted/getting-started) page.
-
-### 1. [Download the VSCode installer](https://code.visualstudio.com/download) for your operating system and install VSCode.
-
-### 2. Open VSCode. 
-
-On the left side of the application is the Activity Bar:
-
-<img width="280" height="328" alt="Screenshot 2025-10-17 at 2 31 13 PM" src="https://github.com/user-attachments/assets/f9f727e2-805b-47c8-893b-b69b8723a36e" />
-
-Click the icon with four squares <img width="55" height="50" alt="Screenshot 2025-10-17 at 2 43 34 PM" src="https://github.com/user-attachments/assets/6c69ba9a-9bf5-4ff3-a16e-f3a112f1bc72" /> to open the Extension browser:
-
-<img width="315" height="337" alt="Screenshot 2025-10-17 at 2 45 19 PM" src="https://github.com/user-attachments/assets/854b5203-eb28-4888-87ea-f0b3b8225b72" />
-
-### 3. Install extensions
-
-VSCode extensions are add-ons that allow users to customize their workflow by integrating additional capabilities. Follow the instructions [here](https://code.visualstudio.com/docs/getstarted/extensions) to find and install the Python and Jupyter extensions. To be sure you install the right extensions, paste the following Extension IDs into the search bar: ms-python.python and ms-toolsai.jupyter.
-
-
-<img width="581" height="83" alt="Python Extension badge" src="https://github.com/user-attachments/assets/193979fc-90d8-44d8-8120-903d66d07313" />
-
-<img width="574" height="85" alt="Jupyter Extension badge" src="https://github.com/user-attachments/assets/c19cbeb9-421b-4c16-9206-02e9366d83cb" />
-
-
-## Part 2: Installing Miniforge, Python, and WaterTAP
-
-### 1. Installing Miniforge
+### 1. Install Miniforge
 
 Miniforge is a tool for managing Python packages and environments. Download Miniforge for your system from this [website](https://conda-forge.org/download/). The "latest" version is recommended.
 
@@ -68,19 +42,52 @@ Run the downloaded installer to start the guided installation process. When prom
   
 ![Miniforge Install](https://github.com/user-attachments/assets/f021af65-4cc0-429f-a8a7-b05987dbaca6)
 
+## Part 2: Installing VSCode, Python, and WaterTAP
 
-### 2. Opening a terminal window
+VSCode is the free Microsoft integrated development environment (IDE) we will be using for the WaterTAP Academy. In addition to installing the VSCode application, we need to install the Python and GitHub extensions. For an introductory tutorial on VSCode, visit their official [Getting Started](https://code.visualstudio.com/docs/getstarted/getting-started) page.
 
-Open a terminal window by searching for and running the "Miniforge Prompt" program. Alternatively, the terminal window can be opened directly in VSCode.
+### 2. [Download the VSCode installer](https://code.visualstudio.com/download) for your operating system and install VSCode.
 
-![Miniforge](https://github.com/user-attachments/assets/2672f854-cb62-40a2-82f9-5a70e3b7040c)
 
-### 3. Creating the Conda environment
+### 3. Create WaterTAP Academy Directory
+
+In File Explorer, create a folder where you'd like to store all of your WaterTAP Academy content. Let's create a folder called watertap_academy and store it under Users/your_username.
+![img.png](img.png)
+
+### 4. Open VSCode. 
+
+On the left side of the application is the Activity Bar:
+
+<img width="280" height="328" alt="Screenshot 2025-10-17 at 2 31 13 PM" src="https://github.com/user-attachments/assets/f9f727e2-805b-47c8-893b-b69b8723a36e" />
+
+Click the icon with four squares <img width="55" height="50" alt="Screenshot 2025-10-17 at 2 43 34 PM" src="https://github.com/user-attachments/assets/6c69ba9a-9bf5-4ff3-a16e-f3a112f1bc72" /> to open the Extension browser:
+
+<img width="315" height="337" alt="Screenshot 2025-10-17 at 2 45 19 PM" src="https://github.com/user-attachments/assets/854b5203-eb28-4888-87ea-f0b3b8225b72" />
+
+### 5. Install extensions
+
+VSCode extensions are add-ons that allow users to customize their workflow by integrating additional capabilities. Follow the instructions [here](https://code.visualstudio.com/docs/getstarted/extensions) to find and install the Python and Jupyter extensions. To be sure you install the right extensions, paste the following Extension IDs into the search bar: ms-python.python and ms-toolsai.jupyter.
+
+<img width="581" height="83" alt="Python Extension badge" src="https://github.com/user-attachments/assets/193979fc-90d8-44d8-8120-903d66d07313" />
+
+<img width="574" height="85" alt="Jupyter Extension badge" src="https://github.com/user-attachments/assets/c19cbeb9-421b-4c16-9206-02e9366d83cb" />
+
+### 6. Open the watertap-academy folder
+Under the Explorer, click "Open Folder" and navigate to the path where you stored the watertap_academy folder. This will be empty for now, but as the course progresses, we'll gradually populate it with material.
+
+![img_3.png](img_3.png)
+
+### 6. Open a terminal window
+
+Open a Miniforge terminal window in VSCode by clicking the dropdown arrow in the terminal and selecting "Miniforge". If the terminal is not already open, click on "Terminal" in the top banner and select "New Terminal".
+![img_1.png](img_1.png)
+
+### 3. Create the Conda environment
 
 At the terminal prompt, run the following command to create the Conda environment:
 
 ```sh
-conda create --yes --name watertap-academy -c conda-forge python=3.11 git
+conda create --yes --name watertap-academy -c conda-forge python=3.12 git
 ```
 
 > [!NOTE]  
@@ -98,10 +105,7 @@ conda create --yes --name watertap-academy -c conda-forge python=3.11 git
 > }
 > ```
 
-
-![Conda Environment](https://github.com/user-attachments/assets/4b251ecc-596d-4398-8f20-547c2f517c3e)
-
-### 4. Activating the Conda environment
+### 4. Activate the Conda environment
 
 Run the following command to activate the newly created `watertap-academy` environment:
 
@@ -111,27 +115,12 @@ conda activate watertap-academy
 
 The name of the active environment should be shown at the bottom left before the prompt:
 
-![Activate Environment](https://github.com/user-attachments/assets/4380010c-f55e-4a08-b067-ca7928d0efbc)
+![img_2.png](img_2.png)
 
 > [!NOTE]
 > The environment will need to be reactivated every time you need to open another terminal window.
 
-### 5. Cloning (downloading) the WaterTAP Academy repository locally
-
-Download ("clone") the WaterTAP Academy repository from GitHub by running the following command:
-    
-```
-git clone https://github.com/watertap-org/watertap_academy_2026
-```
-
-> [!Note]
-> By default, this clone will create a folder within Users/your_username, so if you want to clone WaterTAP Academy to a different location (such as a folder for WaterTAP Academy), you must navigate to that directory before this step.
-
-![Git Clone](https://github.com/user-attachments/assets/324ff418-3443-418c-9a78-d2d4a3995343)
-
-At this point, you have access to all the WaterTAP Academy course material locally. At the beginning of the course, most of these directories will be empty, but you'll be able to update these local directories by downloading the weekly materials directly from GitHub and/or referring to your email inbox where we'll send out weekly content.
-
-### 6. Installing WaterTAP 
+### 5. Install WaterTAP 
 Now we'll install the WaterTAP codebase. 
 
 In the terminal, run the following cell to install WaterTAP inside your "wta2026" environment:
@@ -140,7 +129,7 @@ In the terminal, run the following cell to install WaterTAP inside your "wta2026
 pip install watertap
 ```
 
-### 7. Installing the IDAES solvers
+### 6. Install the IDAES solvers
 
 Run the following command to install the IDAES solvers:
 
@@ -149,36 +138,35 @@ idaes get-extensions --verbose
 ```
 
 
-### 8. Installing the Jupyter dependencies
+### 7. Install the Jupyter dependencies
 
 Run the following command to install the dependencies needed to run notebooks:
 
 ```
-cd watertap_academy_2026
-pip install --editable ".[notebooks]"
+pip install "watertap[notebooks]"
 ```
 
-### 9. Registering the WaterTAP Academy conda environment with Jupyter
+### 8. Register the WaterTAP Academy conda environment with Jupyter
 
 Run the following command to configure Jupyter to recognize the current WaterTAP environment:
 
 ```
-python -m ipykernel install --user --name wta26
+python -m ipykernel install --user --name watertap-academy
 ```
 
 
-### 10. Starting the Jupyter server
+### 9. Start the Jupyter server
 
 Run the following command to start the Jupyter server from the current directory, specifying the introductory tutorial as the starting notebook:
     
 ```
-jupyter lab tutorials\introduction.ipynb
+jupyter lab [insert name of a notebook - they will need to add to this folder first]
 ```
 
 
-### 11. Testing the installation
+### 10. Test the installation
 
-As a way to quickly test if the installation process above was successful, you can run the `introduction.ipynb` notebook automatically (i.e. not interactively). To do so, select `Kernel > Restart Kernel and Run All Cells` from the menu bar.
+As a way to quickly test if the installation process above was successful, you can run the `[insert name of notebook]` notebook automatically (i.e. not interactively). To do so, select `Kernel > Restart Kernel and Run All Cells` from the menu bar.
 
 ![Restart Kernel](https://github.com/user-attachments/assets/280b4c6d-f9c2-4818-91ee-f0f618a94fc6)
 
@@ -189,7 +177,7 @@ As a way to quickly test if the installation process above was successful, you c
 - To "reset" the notebook to the initial empty state and run it again, select `Kernel > Restart Kernel and Run All Cells` from the menu bar
 
 
-### 12. Selecting the WaterTAP kernel to use to run the notebook
+### 11. Select the WaterTAP kernel to use to run the notebook
 
 In the "Select Kernel" pop-up menu, select the `watertap-academy` entry (which corresponds to the registration command in Step 8).
 
@@ -199,14 +187,12 @@ In the "Select Kernel" pop-up menu, select the `watertap-academy` entry (which c
 > You might have to repeat this selection and/or ensure that the `wta26` kernel is being used when launching (opening) other notebooks. The current kernel selection can be seen in the top-right corner of the notebook page.
 
 
-### 13. Installing Reaktoro
+### 12. Install Reaktoro
 
-Run the following commands to install Reaktoro, which is a tool that enables detailed chemistry integration. This will be necessary to run the tutorials for the Week 8 lecture.
+Run the following commands to install Reaktoro, which is a tool that enables detailed chemistry integration. This will be necessary to run the tutorials for the Week 8 lecture. If prompted with "Proceed ([y]/n)?", type the letter y.
 
 ```
-pip uninstall -y numpy
-pip install numpy==1.26.4
-conda install -c conda-forge reaktoro=2.12.3 cyipopt=1.4.1
+conda install -c conda-forge reaktoro=2.13.0 cyipopt=1.7.0
 pip install git+https://github.com/watertap-org/reaktoro-pse.git
 ```
 
@@ -226,7 +212,7 @@ To access the IDAES Flowsheet Processor, visit the [documentation page](https://
 
 ## Part 4: Optional Steps
 
-### 1. Creating a GitHub account
+### 1. Create a GitHub account
 
 You can create a GitHub account if you want to interact with issues, pull requests, and discussion boards. Visit the [GitHub Getting Started](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github#signing-up-for-a-new-personal-account) page for instructions on how to create an account.
 
