@@ -18,7 +18,6 @@ This guide will step through the processes to get started with the WaterTAP Acad
 
 - **Part 4: Optional Steps**
   - Creating a GitHub account
-  - Utilizing Binder
 
 Alternatively, [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/watertap-org/watertap_academy_2026/main) can be used to access WaterTAP Academy materials through a web browser without having to install anything. Binder is an online service providing a short-lived temporary sandbox environment on public cloud resources where Jupyter notebooks can be run, free of charge, without having to install any software locally.
 
@@ -77,12 +76,12 @@ Under the Explorer, click "Open Folder" and navigate to the path where you store
 
 ![img_3.png](img_3.png)
 
-### 6. Open a terminal window
+### 7. Open a terminal window
 
 Open a Miniforge terminal window in VSCode by clicking the dropdown arrow in the terminal and selecting "Miniforge". If the terminal is not already open, click on "Terminal" in the top banner and select "New Terminal".
 ![img_1.png](img_1.png)
 
-### 3. Create the Conda environment
+### 8. Create the Conda environment
 
 At the terminal prompt, run the following command to create the Conda environment:
 
@@ -105,7 +104,7 @@ conda create --yes --name watertap-academy -c conda-forge python=3.12 git
 > }
 > ```
 
-### 4. Activate the Conda environment
+### 9. Activate the Conda environment
 
 Run the following command to activate the newly created `watertap-academy` environment:
 
@@ -120,16 +119,16 @@ The name of the active environment should be shown at the bottom left before the
 > [!NOTE]
 > The environment will need to be reactivated every time you need to open another terminal window.
 
-### 5. Install WaterTAP 
+### 10. Install WaterTAP 
 Now we'll install the WaterTAP codebase. 
 
-In the terminal, run the following cell to install WaterTAP inside your "wta2026" environment:
+In the terminal, run the following cell to install WaterTAP inside your "watertap-academy" environment:
 
 ```
 pip install watertap
 ```
 
-### 6. Install the IDAES solvers
+### 11. Install the IDAES solvers
 
 Run the following command to install the IDAES solvers:
 
@@ -138,7 +137,7 @@ idaes get-extensions --verbose
 ```
 
 
-### 7. Install the Jupyter dependencies
+### 12. Install the Jupyter dependencies
 
 Run the following command to install the dependencies needed to run notebooks:
 
@@ -146,7 +145,7 @@ Run the following command to install the dependencies needed to run notebooks:
 pip install "watertap[notebooks]"
 ```
 
-### 8. Register the WaterTAP Academy conda environment with Jupyter
+### 13. Register the WaterTAP Academy conda environment with Jupyter
 
 Run the following command to configure Jupyter to recognize the current WaterTAP environment:
 
@@ -155,7 +154,7 @@ python -m ipykernel install --user --name watertap-academy
 ```
 
 
-### 9. Start the Jupyter server
+### 14. Start the Jupyter server
 
 Run the following command to start the Jupyter server from the current directory, specifying the introductory tutorial as the starting notebook:
     
@@ -164,7 +163,7 @@ jupyter lab [insert name of a notebook - they will need to add to this folder fi
 ```
 
 
-### 10. Test the installation
+### 15. Test the installation
 
 As a way to quickly test if the installation process above was successful, you can run the `[insert name of notebook]` notebook automatically (i.e. not interactively). To do so, select `Kernel > Restart Kernel and Run All Cells` from the menu bar.
 
@@ -177,7 +176,7 @@ As a way to quickly test if the installation process above was successful, you c
 - To "reset" the notebook to the initial empty state and run it again, select `Kernel > Restart Kernel and Run All Cells` from the menu bar
 
 
-### 11. Select the WaterTAP kernel to use to run the notebook
+### 16. Select the WaterTAP kernel to use to run the notebook
 
 In the "Select Kernel" pop-up menu, select the `watertap-academy` entry (which corresponds to the registration command in Step 8).
 
@@ -187,7 +186,7 @@ In the "Select Kernel" pop-up menu, select the `watertap-academy` entry (which c
 > You might have to repeat this selection and/or ensure that the `wta26` kernel is being used when launching (opening) other notebooks. The current kernel selection can be seen in the top-right corner of the notebook page.
 
 
-### 12. Install Reaktoro
+### 17. Install Reaktoro
 
 Run the following commands to install Reaktoro, which is a tool that enables detailed chemistry integration. This will be necessary to run the tutorials for the Week 8 lecture. If prompted with "Proceed ([y]/n)?", type the letter y.
 
@@ -212,7 +211,7 @@ To access the IDAES Flowsheet Processor, visit the [documentation page](https://
 
 ## Part 4: Optional Steps
 
-### 1. Create a GitHub account
+### 18. Create a GitHub account
 
 You can create a GitHub account if you want to interact with issues, pull requests, and discussion boards. Visit the [GitHub Getting Started](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github#signing-up-for-a-new-personal-account) page for instructions on how to create an account.
 
