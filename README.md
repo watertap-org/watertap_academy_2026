@@ -36,7 +36,7 @@ This repository has the following directories:
 
 To run the WaterTAP models and notebooks, consider the following options:
 * **Quick Start:** Run them through Binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/watertap-org/watertap_academy_2026/main), an online service providing a short-lived temporary sandbox environment on public cloud resources where Jupyter notebooks can be run, free of charge, without having to install any software locally.
-* **Installation** Install only the necessary packages and dependencies. See the installation instructions [here](SIMPLEINSTALLATIONINSTRUCTIONS)
+* **Installation** Install the necessary packages and dependencies. See the installation instructions [here](https://github.com/watertap-org/watertap_academy_2026/wiki/WaterTAP-Academy-Installation-Guide)
 
 
 ## How to Contact Us
