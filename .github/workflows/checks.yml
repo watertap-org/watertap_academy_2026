@@ -63,11 +63,15 @@ jobs:
         os:
           - linux
           - win64
+          - macos
         include:
           - os: linux
             os-version: ubuntu-22.04
           - os: win64
             os-version: windows-2022
+          - os: macos
+            os-version: macos-26
+
     steps:
       - uses: actions/checkout@v4
       - name: Set up Python ${{ matrix.python-version }}
@@ -84,16 +88,13 @@ jobs:
           echo '::endgroup::'
 
           echo '::group::Installing WaterTAP & Reaktoro-PSE'
-          pip install watertap[testing] git+https://github.com/watertap-org/watertap.git@main
+          conda install --yes -n watertap-academy -c conda-forge python=3.12 reaktoro-pse=0.4.1 watertap=1.8 jupyterlab ipywidgets
+          conda activate watertap-academy
+          pip install "watertap[testing]"
           echo '::endgroup::'
 
           echo '::group::Output of "idaes get-extensions" command'
           idaes get-extensions --verbose
-          echo '::endgroup::'
-
-          echo '::group:: installing reaktoro dependencies'
-          conda install -c conda-forge reaktoro=2.13.0 cyipopt=1.7.0
-          pip install git+https://github.com/watertap-org/reaktoro-pse.git
           echo '::endgroup::'
 
           echo '::group::Display installed packages'
@@ -101,6 +102,9 @@ jobs:
           pip list
           pip show idaes-pse
           pip show watertap
+          pip show reaktoro-pse
+          pip show jupyterlab
+          pip show ipywidgets
           pip show numpy
           pip show pandas
           echo '::endgroup::'
