@@ -12,7 +12,6 @@
 
 __author__ = "Marcus Holly"
 
-# Requires: pip install ipywidgets   (scipy and matplotlib ship with WaterTAP's dependencies)
 import numpy as np
 import matplotlib.pyplot as plt
 import ipywidgets as widgets
