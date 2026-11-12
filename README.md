@@ -1,6 +1,6 @@
 # WaterTAP Academy Fall 2026
 
-Welcome to the **WaterTAP Academy Fall 2026** repository!
+Welcome to the **WaterTAP Academy 2026** repository!
 
 The WaterTAP Academy (WTA) is an 8-week course designed to introduce participants
 to the **Water Treatment Technoeconomic Assessment Platform (WaterTAP)** and teach
