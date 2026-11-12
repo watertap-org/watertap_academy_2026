@@ -1,4 +1,4 @@
-# WaterTAP Academy Fall 2026
+# WaterTAP Academy 2026
 
 Welcome to the **WaterTAP Academy 2026** repository!
 
