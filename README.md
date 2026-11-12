@@ -24,7 +24,7 @@ technologies as well as complete treatment trains, enabling users to investigate
 cost, energy consumption, and other system-level tradeoffs. WaterTAP development is funded by the National
 Alliance for Water Innovation (NAWI), the U.S. Department of Energy’s Energy-Water Desalination Hub.
 
-For more information, visit the [WaterTAP repository](https://github.com/watertap-org/watertap/tree/1.7.0) or the [WaterTAP documentation](https://watertap.readthedocs.io/en/1.7.0/).
+For more information, visit the [WaterTAP repository](https://github.com/watertap-org/watertap/tree/main) or the [WaterTAP documentation](https://watertap.readthedocs.io/en/latest/).
 
 
 ## Repository Contents
@@ -37,7 +37,7 @@ This repository has the following directories:
 
 To run the WaterTAP models and notebooks, consider the following options:
 * **Quick Start:** Run them through Binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/watertap-org/watertap_academy_2026/main), an online service providing a short-lived temporary sandbox environment on public cloud resources where Jupyter notebooks can be run, free of charge, without having to install any software locally.
-* **Installation** Install the necessary packages and dependencies. See the installation instructions [here](https://github.com/watertap-org/watertap_academy_2026/wiki/WaterTAP-Academy-Installation-Guide)
+* **Installation** Install the necessary packages and dependencies. See the installation instructions [here](https://github.com/watertap-org/watertap_academy_2026/wiki)
 
 
 ## How to Contact Us
