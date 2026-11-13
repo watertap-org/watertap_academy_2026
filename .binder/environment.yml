@@ -1,0 +1,13 @@
+name: watertap-academy
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - git
+  - jupyterlab
+  - ipywidgets
+  - pip
+  - reaktoro=2.13.0
+  - cyipopt=1.7.0
+  - pip:
+      - -r requirements.txt
