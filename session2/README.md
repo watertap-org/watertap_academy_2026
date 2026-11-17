@@ -1,1 +1,1 @@
-# Materials for week 2
+# Materials for Session 2

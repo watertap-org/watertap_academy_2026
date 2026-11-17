@@ -21,17 +21,18 @@ The Water treatment Technoeconomic Assessment Platform (WaterTAP) is a Python-ba
 library of water treatment models than can be used to assess water treatment trains through
 simulation, optimization, and other advanced methods. WaterTAP supports the analysis of individual treatment
 technologies as well as complete treatment trains, enabling users to investigate performance,
-cost, energy consumption, and other system-level tradeoffs. WaterTAP development is funded by the National
-Alliance for Water Innovation (NAWI), the U.S. Department of Energy’s Energy-Water Desalination Hub.
+cost, energy consumption, and other system-level tradeoffs. WaterTAP development is funded by the [National
+Alliance for Water Innovation](https://www.nawihub.org/) (NAWI), the U.S. Department of Energy’s Energy-Water Desalination Hub.
 
-For more information, visit the [WaterTAP repository](https://github.com/watertap-org/watertap/tree/main) or the [WaterTAP documentation](https://watertap.readthedocs.io/en/latest/).
+For more information on WaterTAP, visit the [WaterTAP repository](https://github.com/watertap-org/watertap/tree/main) or the [WaterTAP documentation](https://watertap.readthedocs.io/en/latest/).
 
 
 ## Repository Contents
 
 This repository has the following directories:
 
-* **Week 1–8:** Contains the lecture materials, hands-on tutorials, and supporting files used during the corresponding lecture.
+* **session 0–8:** Contains the lecture materials, hands-on tutorials, and supporting files used during the corresponding lecture.
+* **post-session:** Contains additional material and/or practice material shared after each session
 * **`src/`:** The source directory can be used to store any source code you may have.
 * **`data/`:** The data directory can be used to store any data you may have.
 

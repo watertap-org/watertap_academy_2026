@@ -1,1 +1,1 @@
-# Materials for week 6
+# Materials for Session 6
